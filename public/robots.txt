@@ -1,0 +1,34 @@
+
+User-agent: *
+
+# Allow all public pages
+Allow: /
+Allow: /services
+Allow: /services/chauffeurs
+Allow: /services/artisans
+Allow: /services/techniciens
+Allow: /about
+Allow: /a-propos
+Allow: /how-it-works
+Allow: /support
+Allow: /contact
+Allow: /faq
+Allow: /privacy
+Allow: /cgu
+Allow: /carrieres
+
+# Disallow private/admin pages
+Disallow: /dashboard
+Disallow: /admin-dashboard
+Disallow: /profile
+Disallow: /payment-confirmation
+Disallow: /reset-password
+Disallow: /create-admin
+Disallow: /convert-user-to-admin
+Disallow: /sync-profiles
+Disallow: /sync-profile-stats
+Disallow: /admin-demo-data
+Disallow: /professional-profile
+
+# Sitemap
+Sitemap: https://www.djibgo.com/sitemap.xml
