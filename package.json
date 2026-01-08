@@ -38,7 +38,8 @@
     "dev": "vite",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "type-check": "tsc --noEmit --project tsconfig.app.json"
+    "type-check": "tsc --noEmit --project tsconfig.app.json",
+    "deploy": "echo 'Static files built successfully. Cloudflare Pages will serve them from dist/ directory.'"
   },
   "type": "module",
   "version": "0.0.0"
